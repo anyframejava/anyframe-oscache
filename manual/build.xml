@@ -22,7 +22,7 @@
 	<property name="localRepo.dir" value="F:/.m2/repository" />
 	
 	<property name="book.name" value="oscache" />
-	<property name="version" value="1.6.0"/>
+	<property name="version" value="1.6.1-SNAPSHOT"/>
  	<property name="service.name" value="anyframe-oscache" />
 	
 	<property name="sample.home" value="E:/workspace/sample/${book.name}/${version}" />

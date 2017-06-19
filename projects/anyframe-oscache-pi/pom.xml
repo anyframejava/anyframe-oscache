@@ -8,7 +8,7 @@
     <groupId>org.anyframe.plugin</groupId>
     <artifactId>anyframe-oscache-pi</artifactId>
     <packaging>war</packaging>
-    <version>1.6.0</version>
+    <version>1.6.1-SNAPSHOT</version>
     <name>oscache</name>
     
     <dependencies>
@@ -16,7 +16,7 @@
     	<dependency>
 			<groupId>org.anyframe</groupId>
 			<artifactId>anyframe-oscache</artifactId>
-			<version>1.6.0</version>
+			<version>1.6.1-SNAPSHOT</version>
 		</dependency>
     	<dependency>
 			<groupId>opensymphony</groupId>
@@ -27,7 +27,7 @@
 		<dependency>
 			<groupId>org.anyframe</groupId>
 			<artifactId>anyframe-core</artifactId>
-			<version>1.6.0</version>
+			<version>1.6.1-SNAPSHOT</version>
 		</dependency>		
 		<dependency>
 			<groupId>org.hibernate</groupId>
@@ -221,7 +221,7 @@
         <dependency>
             <groupId>org.anyframe</groupId>
             <artifactId>anyframe-query</artifactId>
-            <version>1.6.0</version> 
+            <version>1.6.1-SNAPSHOT</version> 
         </dependency>   
 		<dependency>
 			<groupId>org.apache.velocity</groupId>
@@ -282,7 +282,7 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>anyframe-maven-plugin</artifactId>
-                <version>2.3.0</version>
+                <version>2.3.1-SNAPSHOT</version>
                 <dependencies>
                     <dependency>
                         <groupId>hsqldb</groupId>
