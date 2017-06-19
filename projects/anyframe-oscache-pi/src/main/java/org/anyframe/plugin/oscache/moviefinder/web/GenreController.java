@@ -79,7 +79,7 @@ public class GenreController {
 
 	@RequestMapping(params = "method=update")
 	public String update(Genre genre) throws Exception {
-		genreService.update(genre);
+		this.genreService.update(genre);
 
 		return "redirect:/oscacheGenre.do?method=list";
 	}
@@ -87,7 +87,7 @@ public class GenreController {
 	@RequestMapping(params = "method=remove")
 	public String remove(@RequestParam("genreId") String genreId)
 			throws Exception {
-		genreService.remove(genreId);
+		this.genreService.remove(genreId);
 		return "redirect:/oscacheGenre.do?method=list";
 	}
 	
