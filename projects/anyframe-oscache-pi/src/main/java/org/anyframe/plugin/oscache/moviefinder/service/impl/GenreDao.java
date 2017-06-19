@@ -37,23 +37,22 @@ public class GenreDao extends QueryServiceDaoSupport {
 		super.setQueryService(queryService);
 	}
 
-	@SuppressWarnings("unchecked")
-	public List<Genre> getList() throws Exception {
-		return (List<Genre>) this.findList("findOSCacheGenreList", new Object[] {});
-	}
-	
-	public void create(Genre genre) throws Exception {
-		create("createOSCacheGenre", genre);
+	public List<Genre> getList() {
+		return super.findList("findOSCacheGenreList", new Object[] {});
 	}
 
-	public void remove(String genreId) throws Exception {
+	public void create(Genre genre) {
+		super.create("createOSCacheGenre", genre);
+	}
+
+	public void remove(String genreId) {
 		Genre genre = new Genre();
 		genre.setGenreId(genreId);
-		remove("removeOSCacheGenre", genre);
+		super.remove("removeOSCacheGenre", genre);
 	}
 
-	public void update(Genre genre) throws Exception {
-		update("updateOSCacheGenre", genre);
+	public void update(Genre genre) {
+		super.update("updateOSCacheGenre", genre);
 	}
 
 }

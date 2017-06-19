@@ -21,9 +21,8 @@
 	<property name="result.dir" value="E:/Repo/anyframe-opensource/docs/anyframe/plugin/${plugin.type}"/>
 
 	<property name="book.name" value="oscache" />
-	<property name="version" value="1.0.0"/>
+	<property name="version" value="1.5.0"/>
  	<property name="service.name" value="anyframe-oscache" />
-	<property name="spring.version" value="3.1.1.RELEASE"/>
 	
 	<property name="sample.home" value="E:/workspace/sample/${book.name}/${version}" />
 	<property name="service.home" value="E:/workspace/service/${book.name}/${version}" />
